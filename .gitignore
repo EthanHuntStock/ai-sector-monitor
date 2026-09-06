@@ -1,0 +1,16 @@
+# ai_sector_monitor - public repo whitelist (.gitignore)
+# Only the generated static site (docs/) and a few public docs are tracked.
+# Internal code, data/, _ledger/, .env, kabu-derived files are NEVER committed.
+#
+# 2026-09-06: docs/ is now GitHub-Pages-only (the internal changelog that used to
+# live at docs/作業ログ.md was moved to 作業ログ.md at the project root to remove
+# the folder-name collision). Kept the *.md exclusion below anyway as defense in
+# depth in case a stray markdown file ever ends up under docs/ by mistake.
+*
+!.gitignore
+!README_public.md
+!docs/
+!docs/**
+docs/**/*.tmp
+docs/*.md
+docs/**/*.md
