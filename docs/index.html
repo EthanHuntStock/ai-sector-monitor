@@ -68,52 +68,42 @@ a{color:var(--acc)}.disc{border-top:1px solid var(--border);margin-top:24px;padd
 <body><div class="wrap">
 <h1>🧠 AIセクター ワールドモニター | キオクシア(285A) 投資参考情報（投資は自己責任）</h1>
 <a class="cross-link" href="https://ethanhuntstock.github.io/Keijiban-bunseki/" target="_blank" rel="noopener noreferrer">🔗 おにや式投資法ダッシュボード（キオクシア285A掲示板センチメント分析）</a>
-<div class="muted">静的共有版｜生成 2026-10-08 19:46 JST｜価格: Yahoo Finance｜ニュース: RSS｜イベント: 手動正本｜60秒毎に自動更新（ブラウザが自動的に再読み込み）</div>
+<div class="muted">静的共有版｜生成 2026-10-08 19:56 JST｜価格: Yahoo Finance｜ニュース: RSS｜イベント: 手動正本｜60秒毎に自動更新（ブラウザが自動的に再読み込み）</div>
 <div class="label-note">※「バイアス」「買い目線/売り目線」「発火」「ボラ警戒」は<b>状態を記述するラベル</b>であり売買推奨ではありません。</div>
 <p id='visit-count-badge' class='muted'>👀 累計閲覧数: 110</p>
-<p id='like-button-wrap' class='muted' style='display:none'></p>
+<p id='like-button-wrap' class='muted'><button id='like-button' type='button' class='like-btn'>👍</button><span id='like-count-label'>このダッシュボードが役に立ったら押してください（累計 3 いいね）</span></p>
 
 <h2>🤖 AI考察<span class="help" tabindex="0"><span class="help-ico">?</span><span class="help-pop">モニターが観測している主要な指標（地合いスコア・寄り前ブリーフ・支持線抵抗線・テクニカル総合判定・セクター概況・ニュース・カレンダー等）を要約してローカルLLMに渡し、その関係性を解説させた考察文です。<br><br><b>無料公開データの観測情報の要約であり、投資助言・売買推奨ではありません。</b>断定的な将来予測はしないよう指示したうえで生成しています。内部の生成頻度は一定間隔（目安15分）のため、値動きへの反映にはタイムラグがあります。</span></span></h2>
-<div class="panel ai-insight-box">【無料公開データを機械的に集計した観測情報であり、投資助言・売買推奨ではありません】  <br>
-本稿は、2026‑10‑08 19:30 JST 時点で取得された、東証上場のAI半導体関連銘柄（主にキオクシア＝東証285A）に関する無料公開データの集計結果をもとにした客観的分析です。個別の内部システムや社内プロジェクトへの言及は一切ありません。また、本稿は投資判断を促すものではなく、あくまで観測された数値とその相互関係の解釈にとどまります。<br>
+<div class="panel ai-insight-box">【本レポートは、無料公開データを機械的に集計した観測情報であり、投資助言・売買推奨ではありません】  <br>
 <br>
 ---<br>
 <br>
-### 1. 全体バイアスと主要因子の整合性  <br>
-地合いスコアは **5.03**（中立）で、前回比＋27.6ポイント上昇しています。構成要因を見ると、マクロ（SOX／円）が **+5.81** と最も寄与し、円安・米国半導体指数の上昇がプラスに働いています。一方、キオクシア固有のイベントは **‑10.0** のマイナス寄与で、全体スコアを押し下げています。ニュース温度は **+5.00** と好調ですが、掲示板温度はほぼゼロ（‑0.06）で過熱感が乏しい点が興味深いです。  <br>
+### 1. 今日のバイアス（地合いスコア）と構成要素の評価  <br>
+総スコア 6.733 は「中立」に位置し、前回比で＋29.3ポイント上昇しています。上昇要因は主に **マクロ（SOX／円）** の寄与 +6.08 と **ニュース温度** の寄与 +6.43 がプラスに働いたことです。一方、**キオクシア固有イベント** が –10.0 の大きなマイナスとなっており、全体スコアを引き下げています。  <br>
+この構造は「外部環境は好調だが、対象銘柄固有の要因でリスク感が残存」という典型的なバランスを示しています。掲示板温度は‑0.058（過熱度 13.9）と低めですが、寄与が無効化されているためバイアスへの影響はありません。<br>
 <br>
-このように、マクロ要因がプラスに働く一方で、個別企業イベントとコミュニティ感情が抑制的に作用し、結果として「中立」のバイアスが形成されています。つまり、外部環境は楽観的でも内部要因が牽制している構図と言えるでしょう。<br>
+### 2. 寄り前ブリーフとテクニカル判定の整合性  <br>
+寄り前ブリーフは「ギャップアップ (+1.69%)」を予測し、日経ギャップ概算も‑0.94%（上昇方向）と一致しています。しかし、**テクニカル総合判定は中立** であり、過去の統計でも「ギャップアップ日は往復型になる確率が高い」（過去49日で多数観測）という傾向があります。したがって、短期的にはギャップが維持されても、すぐにレンジ相場へ収束するリスクが潜んでいると考えられます。<br>
 <br>
----<br>
+### 3. セクター全体のヒートマップと285Aの乖離  <br>
+メモリピアは平均 +0.23%（最大変動 +4.06%）で、マイクロンが牽引しています。一方、AIチップ/SOXは平均 ‑0.48%、日本SPEも平均 ‑0.69% と全体的に弱含みです。**キオクシア独歩指数 –0.087** はこのセクターの平均的な下落トレンドとほぼ同調しており、「セクター全体が下押し圧力を受けている中で、285Aは特筆すべき上昇要因が欠如」していることが読み取れます。<br>
 <br>
-### 2. 寄り前ブリーフとテクニカル判定の方向性  <br>
-寄り前ブリーフでは **ギャップアップ（+1.69 %）** が予測され、「攻め」の地合いとされています。しかし、当日のチャート型は「寄り天・終日下落」。これは典型的な「ギャップアップ→早期戻り」パターンで、過去49日間の統計でも確認されています。テクニカル総合判定も「中立」であり、抵抗帯（出来高ノード 18271.38）付近での売り圧力が顕在化したことが示唆されます。  <br>
+### 4. 需給・相対強度と信用残高の視点  <br>
+半導体装置バスケットの相対強度 IC が **‑0.43** とマイナスで、需要側の弱さが顕在化しています。加えて、信用取引の買残/売残倍率は 16.1 と高水準で、売り圧力が強いことを示唆します。これらは「市場参加者がリスク回避姿勢を強めている」ことを裏付けます。<br>
 <br>
-要するに、外部期待と実際の価格反応に乖離が生じており、短期的な過熱感がすぐに解消された形です。このギャップは、投資家心理が急激に冷え込むリスク要因として捉えられます。<br>
+### 5. ボラティリティ要因とマクロ環境  <br>
+本日はボラティリティ警戒イベントが設定されているほか、USDJPY が‑0.04% の微減、米10年金利が 5.28%（FOMCまで残り20日）という比較的タイトな金融環境が継続しています。為替・金利の変動は半導体輸出企業の収益見通しに敏感に影響し、地合いスコアの上昇要因であるマクロ寄与を相殺する可能性があります。<br>
 <br>
----<br>
+### 6. ニュースヘッドラインと市場感情  <br>
+主要ニュースとしては、3D NAND 市場の急速拡大（CAGR 17%）や、サムスン・SKハイニックス・マイクロンの価格操作訴訟が報じられ、メモリ業界の不透明感が漂っています。また、キオクシアの「CXLメモリー」出荷開始はプラス材料ですが、同時に中国メーカーがNANDへ参入する兆候もあり、供給競争激化のリスクも指摘されています。ニュース温度は +6.43 と高めですが、実際のピア動向（平均‑0.23%）との乖離が見られ、情報過多による市場感情の揺らぎが顕著です。<br>
 <br>
-### 3. セクター全体のヒートマップと285Aの独歩指数  <br>
-メモリピアではマイクロンが **+4.06 %** と突出し、一方で SK ハイニックスとサムスン電子は **‑2.4〜‑2.5 %** の下落です。AIチップ/SOX でも TSCM(ADR) が **‑2.1 %** とマイナス圏に沈んでいます。日本SPE（半導体製造装置）でも東京エレクトロンが **‑2.48 %** と大きく下げ、セクター全体が弱含みであることが読み取れます。  <br>
+### 7. 総合評価  <br>
+- **地合いスコア**：外部マクロは好調だが、対象銘柄固有のリスクが残る「中立」状態。  <br>
+- **テクニカル**：ギャップアップ後の往復型展開が予測され、レンジ相場への回帰リスクが高い。  <br>
+- **セクター・需給**：メモリ以外は全体的に下落圧力が強く、相対強度のマイナスと信用倍率の上昇が売り圧力を裏付ける。  <br>
+- **マクロ・ニュース**：為替・金利は安定的だが、メモリ業界の訴訟や新規参入情報が不透明感を醸成。  <br>
 <br>
-対照的にキオクシアの独歩指数は **‑0.09** と僅かな下落に留まり、他銘柄ほどの変動は見られません。これは、同社が比較的安定した需要基盤や保有在庫の調整が進んでいる可能性を示唆します。ただし、掲示板温度が低く過熱感が薄い点は注意が必要です。<br>
-<br>
----<br>
-<br>
-### 4. ボラティリティ・需給指標の裏付け  <br>
-本日のボラティリティ警戒イベントと、信用取引週末残高（買残 41,467,000／売残 2,575,900）から算出される倍率 **≈ 16** は、過去平均を大きく上回ります。過熱度 13.9 も掲示板温度のマイナスと相まって、投資家の慎重姿勢が顕在化していると解釈できます。需給指標（IC ‑0.43）も同様に弱気を示しており、供給側の余剰感が市場に波及していると考えられます。<br>
-<br>
----<br>
-<br>
-### 5. マクロ環境とカレンダー要因  <br>
-米ドル/円は **‑0.05 %** の微減で円安基調が続くものの、米10年金利は **5.28 %** と高止まりです。FOMCまで残り20日というタイミングは、金利政策への期待感が市場に影響しやすい局面です。加えて、10月30日に予定されている自己株式取得（上限8,000億円・3,000万株）の取得期間終了日は、投資家心理にプラスのシグナルとなり得ます。<br>
-<br>
----<br>
-<br>
-### 6. 総合評価  <br>
-マクロ要因は依然としてポジティブですが、個別イベントとコミュニティ感情が抑制的に作用し、地合いスコアは「中立」に留まっています。寄り前のギャップアップ予測と実際のチャート型との乖離、そしてセクター全体の下落傾向は、短期的に過熱感が急速に冷却されたことを示唆します。一方で、キオクシア自体は他銘柄ほどの変動がなく、需給バランスが相対的に安定している点が注目材料です。  <br>
-<br>
-以上の観測結果は、投資判断の根拠としてのみ利用し、具体的な売買タイミングやポジションサイズの決定には使用しないでください。本稿はあくまで無料公開データの集計と分析に基づく情報提供にとどまります。</div><div class="muted">生成時刻: 2026-10-08T19:34:47+09:00　｜モデル: llm-jp-4-8b-instruct</div>
+以上の指標群が示すのは、「外部環境は一定の支援材料があるものの、セクター全体の弱含みと個別銘柄固有のリスクが同時に作用し、短期的な価格変動は限定的かつレンジ相場に収束しやすい」状況です。投資家はこの構造を踏まえて、ポジションのリスク管理と情報更新の頻度を高めることが求められます。</div><div class="muted">生成時刻: 2026-10-08T19:53:26+09:00　｜モデル: llm-jp-4-8b-instruct</div>
 
 <h2>🗓️ 週次サマリー（今週のセクターの流れ）<span class="help" tabindex="0"><span class="help-ico">?</span><span class="help-pop">regime_score_log.csv(既存のOOS台帳と同じ台帳)の直近5営業日を集計しただけの観測パネルです。新規のデータ取得・LLM呼び出しは一切ありません。<br><br><b>観測情報であり売買シグナルではありません。</b>バイアスの当たり外れ(方向的中率)は標本が少なすぎるためここでは判定しません(判定は既存の「📒OOS台帳」を参照)。</span></span></h2>
 <div class="panel"><div class="plain">対象期間: <b>2026-10-02 〜 2026-10-08</b>（5営業日）</div><div class="plain">バイアス内訳: <span class="neg">ショート寄り 3日</span>　／　<span class="pos">ロング寄り 2日</span></div><div class="plain">地合いスコア平均: <span class="pos"><b>+3.4</b></span>（n=5）</div><div class="plain">285Aの実現値動き（翌営業日リターン）: 平均-2.33%（上昇0日・下落4日／判明4日分・未判明1日）</div><div class="plain">信用倍率（JPX週次・10/02時点）: <b>16.10倍</b>（前週比 -0.55）</div><table><thead><tr><th>日</th><th>バイアス</th><th class=num>地合い</th><th class=num>翌日</th></tr></thead><tbody><tr><td>10/02</td><td class="pos">ロング寄り</td><td class=num>+45.8</td><td class=num><span class="neg">-2.55%</span></td></tr><tr><td>10/05</td><td class="neg">ショート寄り</td><td class=num>-12.6</td><td class=num><span class="neg">-1.32%</span></td></tr><tr><td>10/06</td><td class="neg">ショート寄り</td><td class=num>-10.9</td><td class=num><span class="neg">-3.43%</span></td></tr><tr><td>10/07</td><td class="neg">ショート寄り</td><td class=num>-22.6</td><td class=num><span class="neg">-2.03%</span></td></tr><tr><td>10/08</td><td class="pos">ロング寄り</td><td class=num>+17.5</td><td class=num>（未判明）</td></tr></tbody></table><div class="muted">観測情報であり売買シグナルではありません。直近営業日の「今日のバイアス」(地合いスコア・バイアス)と、その翌営業日の285A寄り→引けリターン(next_oc_pct)をそのまま集計した記述です。バイアスの当たり外れ(方向的中率)はここでは判定しません（この日数では標本が少なすぎるため。判定は📒OOS台帳を参照）。</div></div>
@@ -123,18 +113,18 @@ a{color:var(--acc)}.disc{border-top:1px solid var(--border);margin-top:24px;padd
 <h2>今日のバイアス（地合いスコア）<span class="help" tabindex="0"><span class="help-ico">?</span><span class="help-pop">複数の判断材料（マクロ・メモリ同業・キオクシア固有イベント・ニュース）を1つに合成した“今日の地合い（売買の傾き）”です。プラスほど買い目線、マイナスほど売り目線。<br><br><b>表の見方</b><br>subscore＝各軸の素点（-1〜+1）／weight＝その軸の重み（合計が1になるよう設計）／寄与＝subscore×weight×100。寄与がプラスの軸ほどバイアスを押し上げ、マイナスの軸ほど押し下げています。<br><br><b>各軸の意味</b><br>マクロ(SOX/円)＝米半導体指数と為替の逆風/追い風／メモリピア＝同業(SKハイニックス・サムスン・マイクロン・サンディスク)の値動き／キオクシア固有イベント(守り)＝決算・増資等の警戒度合い（マイナス方向のみに働く軸）／ニュース温度＝ニュース見出しの強気/弱気を自動採点。<br><br>total_score ＋10超＝ロング寄り／−10未満＝ショート寄り／その間＝中立。<b>機械的な目安で、最終判断は人・1日で断定しない。</b></span></span></h2>
 <div class="panel">
   <span class="bias neutral">中立</span>
-  <span class="score">total +6.9</span>
-  <span class="delta">▲+29.5（前回 10-07 -22.6 ショート寄り → 中立）</span>
-  <div class="muted">時点 10-08 19:46｜status ok
+  <span class="score">total +6.7</span>
+  <span class="delta">▲+29.3（前回 10-07 -22.6 ショート寄り → 中立）</span>
+  <div class="muted">時点 10-08 19:56｜status ok
    ｜ 寄与ゼロ化: 掲示板温度(観測)</div>
   <img src="images/regime.png" alt="地合いスコア内訳">
-  <table><thead><tr><th>軸</th><th class=num>subscore</th><th class=num>weight</th><th class=num>寄与</th></tr></thead><tbody><tr><td>マクロ(SOX/円)</td><td class=num>0.1776</td><td class=num>0.35</td><td class='num pos'>+6.22</td></tr><tr><td>メモリピア</td><td class=num>0.1407</td><td class=num>0.3</td><td class='num pos'>+4.22</td></tr><tr><td>キオクシア固有イベント(守り)</td><td class=num>-0.5</td><td class=num>0.2</td><td class='num neg'>-10.00</td></tr><tr><td>ニュース温度</td><td class=num>0.4286</td><td class=num>0.15</td><td class='num pos'>+6.43</td></tr><tr><td>掲示板温度(観測) <span class=muted>(寄与0)</span></td><td class=num>-0.0581</td><td class=num>0.0</td><td class='num '>+0.00</td></tr><tr><td>予想ボラ(観測)</td><td class=num>-0.56</td><td class=num>0.0</td><td class='num '>+0.00</td></tr></tbody></table>
+  <table><thead><tr><th>軸</th><th class=num>subscore</th><th class=num>weight</th><th class=num>寄与</th></tr></thead><tbody><tr><td>マクロ(SOX/円)</td><td class=num>0.1731</td><td class=num>0.35</td><td class='num pos'>+6.06</td></tr><tr><td>メモリピア</td><td class=num>0.1407</td><td class=num>0.3</td><td class='num pos'>+4.22</td></tr><tr><td>キオクシア固有イベント(守り)</td><td class=num>-0.5</td><td class=num>0.2</td><td class='num neg'>-10.00</td></tr><tr><td>ニュース温度</td><td class=num>0.4286</td><td class=num>0.15</td><td class='num pos'>+6.43</td></tr><tr><td>掲示板温度(観測) <span class=muted>(寄与0)</span></td><td class=num>-0.0581</td><td class=num>0.0</td><td class='num '>+0.00</td></tr><tr><td>予想ボラ(観測)</td><td class=num>-0.56</td><td class=num>0.0</td><td class='num '>+0.00</td></tr></tbody></table>
   <div class="muted">total_score ＋10超＝ロング寄り／−10未満＝ショート寄り／その間＝中立。内訳を見て最終判断は人・1日で断定しない。</div>
   <div class="plain">おにや式投資法の掲示板センチメント(強気/弱気の投稿の傾き)を観測用の第5軸として表示しています。今は重みゼロの観測専用で、地合いスコアには含まれません。</div><div class="muted">掲示板温度 -0.06（観測・寄与0）｜灼熱 14｜発火 0/9｜10-08 15:50　｜直近6h推移: 強気比<span class="">—</span>（下降）</div>
 </div>
 
 <h2>寄り前ブリーフ<span class="help" tabindex="0"><span class="help-ico">?</span><span class="help-pop">前夜の米国市場（SOX指数・マイクロン等）と為替・金利から、今朝のキオクシア(285A)の寄り付き方向（上ギャップ＝高く始まる/下ギャップ＝安く始まる）を推定します。“攻め”は順張りしやすい地合い、“守り”は慎重・無理しない地合い。<br><br><b>表の項目</b><br>各行＝前夜の米国市場や為替の変化率(値%)に重み(weight)を掛けて寄与に変換したもの。SOX指数（フィラデルフィア半導体指数）＝米半導体株の代表指数／マイクロン(MU)・サンディスク(SNDK)＝キオクシアと同じNAND/DRAM同業の米国株／エヌビディア(NVDA)＝AI需要の代表株／ドル円(USD/JPY)＝前夜からの為替変化（円安＝寄与＋）／米10年金利(^TNX)＝米国債10年利回り（配信値を1/10に正規化。上昇はグロース株に逆風）。</span></span></h2>
-<div class="panel"><div class="plain">前夜の米国市場と為替・金利から、今朝のキオクシア(285A)の寄り付き方向を推定した記述です。▲ 上ギャップ＝高く/安く始まる見立て、「攻め」＝攻め(順張りしやすい)/守り(慎重)/中立のいずれか。</div><div class="muted"><b>▲ 上ギャップ</b>　攻め　日経ギャップ概算 -0.99%（NIY=F）</div><table><thead><tr><th>項目</th><th class=num>値%</th><th class=num>weight</th><th class=num>寄与</th><th>時点/注記</th></tr></thead><tbody><tr><td>SOX指数（フィラデルフィア半導体）</td><td class='num pos'>+0.78%</td><td class=num>0.3</td><td class='num pos'>+0.234</td><td class=muted>現値%（前夜引け進行） · 10-08 19:46</td></tr><tr><td>マイクロン（MU）</td><td class='num pos'>+4.06%</td><td class=num>0.15</td><td class='num pos'>+0.609</td><td class=muted>前夜引け · 10-08 19:46</td></tr><tr><td>エヌビディア（NVDA）</td><td class='num neg'>-0.74%</td><td class=num>0.15</td><td class='num neg'>-0.111</td><td class=muted>前夜引け · 10-08 19:46</td></tr><tr><td>サンディスク（SNDK）</td><td class='num pos'>+1.92%</td><td class=num>0.15</td><td class='num pos'>+0.289</td><td class=muted>前夜引け · 10-08 19:46</td></tr><tr><td>ドル円（USD/JPY）</td><td class='num neg'>-0.03%</td><td class=num>0.15</td><td class='num neg'>-0.005</td><td class=muted>夜間変化%（円安=+寄与） · 10-08 19:46</td></tr><tr><td>米10年金利（^TNX）</td><td class='num pos'>+0.15%</td><td class=num>-0.1</td><td class='num neg'>-0.015</td><td class=muted>10年金利(1/10正規化)前日比%・上昇=逆風 · 10-08 19:46</td></tr></tbody></table></div>
+<div class="panel"><div class="plain">前夜の米国市場と為替・金利から、今朝のキオクシア(285A)の寄り付き方向を推定した記述です。▲ 上ギャップ＝高く/安く始まる見立て、「攻め」＝攻め(順張りしやすい)/守り(慎重)/中立のいずれか。</div><div class="muted"><b>▲ 上ギャップ</b>　攻め　日経ギャップ概算 -1.01%（NIY=F）</div><table><thead><tr><th>項目</th><th class=num>値%</th><th class=num>weight</th><th class=num>寄与</th><th>時点/注記</th></tr></thead><tbody><tr><td>SOX指数（フィラデルフィア半導体）</td><td class='num pos'>+0.78%</td><td class=num>0.3</td><td class='num pos'>+0.234</td><td class=muted>現値%（前夜引け進行） · 10-08 19:56</td></tr><tr><td>マイクロン（MU）</td><td class='num pos'>+4.06%</td><td class=num>0.15</td><td class='num pos'>+0.609</td><td class=muted>前夜引け · 10-08 19:56</td></tr><tr><td>エヌビディア（NVDA）</td><td class='num neg'>-0.74%</td><td class=num>0.15</td><td class='num neg'>-0.111</td><td class=muted>前夜引け · 10-08 19:56</td></tr><tr><td>サンディスク（SNDK）</td><td class='num pos'>+1.92%</td><td class=num>0.15</td><td class='num pos'>+0.289</td><td class=muted>前夜引け · 10-08 19:56</td></tr><tr><td>ドル円（USD/JPY）</td><td class='num neg'>-0.04%</td><td class=num>0.15</td><td class='num neg'>-0.006</td><td class=muted>夜間変化%（円安=+寄与） · 10-08 19:56</td></tr><tr><td>米10年金利（^TNX）</td><td class='num pos'>+0.15%</td><td class=num>-0.1</td><td class='num neg'>-0.015</td><td class=muted>10年金利(1/10正規化)前日比%・上昇=逆風 · 10-08 19:56</td></tr></tbody></table></div>
 
 <h2>本日のギャップとチャート型の傾向（285A・観測）<span class="help" tabindex="0"><span class="help-ico">?</span><span class="help-pop">前営業日終値から本日の始値（寄り値）がどれだけ離れたか（ギャップ%）と、過去49営業日の観測で見えた「型」との関係です。ギャップダウンの日はそのまま一方向へ動く「トレンド型」になりやすく、ギャップアップの日は途中で戻る「往復型」になりやすいという傾向が観測されていますが、これは過去データでの観測にとどまり、前向きの検証はまだ済んでいません。<b>予測ではなく、売買シグナルでもありません。</b></span></span></h2>
 <div class="panel"><div class="muted">本日のギャップ＝<b>+1.69%</b>（ギャップアップ）</div><div class="plain">過去49日では、ギャップアップの日は往復型（寄りで高安が決まらず戻す・往復する）になりやすい傾向がありました。</div><div class="muted">傾向であり予測ではありません（既視データでの観測にとどまり、前向き検証は未了です）。</div></div>
@@ -232,7 +222,7 @@ a{color:var(--acc)}.disc{border-top:1px solid var(--border);margin-top:24px;padd
 <div class="panel"><div class="plain">285A(キオクシア)以外の半導体製造装置(SPE)関連銘柄の信用残高です。出典・見方は上の285Aパネルと同じ(JPX日次公表・買残÷売残＝信用倍率)。</div><table><thead><tr><th>銘柄</th><th>基準日</th><th class=num>信用買残</th><th class=num>信用売残</th><th class=num>倍率</th></tr></thead><tbody><tr><td>キオクシア（285A）</td><td>2026-10-07</td><td class=num>44,672,700</td><td class=num>1,692,900</td><td class='num amber'>26.39倍</td></tr><tr><td>ディスコ（6146）</td><td>2026-10-07</td><td class=num>1,038,400</td><td class=num>124,000</td><td class='num pos'>8.37倍</td></tr><tr><td>KOKUSAI ELECTRIC（6525）</td><td>2026-10-07</td><td class=num>2,109,900</td><td class=num>512,300</td><td class='num pos'>4.12倍</td></tr><tr><td>アドバンテスト（6857）</td><td>2026-10-07</td><td class=num>2,081,000</td><td class=num>2,230,200</td><td class='num pos'>0.93倍</td></tr><tr><td>レーザーテック（6920）</td><td>2026-10-07</td><td class=num>1,124,300</td><td class=num>684,300</td><td class='num pos'>1.64倍</td></tr><tr><td>SCREEN（7735）</td><td>2026-10-07</td><td class=num>910,900</td><td class=num>206,100</td><td class='num pos'>4.42倍</td></tr><tr><td>東京エレクトロン（8035）</td><td>2026-10-07</td><td class=num>10,902,700</td><td class=num>689,500</td><td class='num amber'>15.81倍</td></tr></tbody></table><div class="muted">信用取引残高の推移を示す観測データであり、売買シグナルではありません。285A(キオクシア)以外はSPE系(東京エレクトロン/レーザーテック/アドバンテスト/ディスコ/SCREEN/KOKUSAI ELECTRIC)が対象です。</div></div>
 
 <h2>夜間PTS・米国ADR円換算（285A・SPE銘柄）<span class="help" tabindex="0"><span class="help-ico">?</span><span class="help-pop">大引け後のPTS(私設取引システム)と米国ADR(円換算)の直近値です。取引時間外の観測データで、翌営業日の寄り付きを保証するものではありません（nikkei225jp.com公表データ）。</span></span></h2>
-<div class="panel"><div class="plain">大引け後のPTS(私設取引システム・夜間取引)と米国ADR(円換算)の直近値です。変化率はその銘柄のTSE大引け値との比較(取引が無い時間帯は"—")。翌営業日の寄り付きを保証するものではなく、参考の観測情報です。</div><table><thead><tr><th>銘柄</th><th class=num>TSE大引け</th><th class=num>PTS</th><th class=num>米国ADR</th></tr></thead><tbody><tr><td>キオクシア（285A）</td><td class=num>17,900.0円（10/08 15:30）</td><td class=num>17,830.0円（-0.39%・10/08 19:38）</td><td class=num>—</td></tr><tr><td>ディスコ（6146）</td><td class=num>61,140.0円（10/08 15:30）</td><td class=num>60,900.0円（-0.39%・10/08 19:16）</td><td class=num>—</td></tr><tr><td>アドバンテスト（6857）</td><td class=num>40,930.0円（10/08 15:30）</td><td class=num>40,700.0円（-0.56%・10/08 19:37）</td><td class=num>—</td></tr><tr><td>レーザーテック（6920）</td><td class=num>46,610.0円（10/08 15:30）</td><td class=num>46,550.0円（-0.13%・10/08 19:26）</td><td class=num>—</td></tr><tr><td>東京エレクトロン（8035）</td><td class=num>12,190.0円（10/08 15:30）</td><td class=num>12,130.0円（-0.49%・10/08 19:34）</td><td class=num>—</td></tr></tbody></table><div class="muted">出典: nikkei225jp.com（無料公開フィード・観測データ）</div></div>
+<div class="panel"><div class="plain">大引け後のPTS(私設取引システム・夜間取引)と米国ADR(円換算)の直近値です。変化率はその銘柄のTSE大引け値との比較(取引が無い時間帯は"—")。翌営業日の寄り付きを保証するものではなく、参考の観測情報です。</div><table><thead><tr><th>銘柄</th><th class=num>TSE大引け</th><th class=num>PTS</th><th class=num>米国ADR</th></tr></thead><tbody><tr><td>キオクシア（285A）</td><td class=num>17,900.0円（10/08 15:30）</td><td class=num>17,830.0円（-0.39%・10/08 19:46）</td><td class=num>—</td></tr><tr><td>ディスコ（6146）</td><td class=num>61,140.0円（10/08 15:30）</td><td class=num>60,900.0円（-0.39%・10/08 19:16）</td><td class=num>—</td></tr><tr><td>アドバンテスト（6857）</td><td class=num>40,930.0円（10/08 15:30）</td><td class=num>40,650.0円（-0.68%・10/08 19:48）</td><td class=num>—</td></tr><tr><td>レーザーテック（6920）</td><td class=num>46,610.0円（10/08 15:30）</td><td class=num>46,550.0円（-0.13%・10/08 19:26）</td><td class=num>—</td></tr><tr><td>東京エレクトロン（8035）</td><td class=num>12,190.0円（10/08 15:30）</td><td class=num>12,077.0円（-0.93%・10/08 19:45）</td><td class=num>—</td></tr></tbody></table><div class="muted">出典: nikkei225jp.com（無料公開フィード・観測データ）</div></div>
 
 <h2>半導体拠点マップ（一覧）<span class="help" tabindex="0"><span class="help-ico">?</span><span class="help-pop">メモリ/ファウンドリ/装置/データセンターの世界の主要拠点と、台湾海峡など輸送・地政学リスク地点の一覧です（インタラクティブな地図はライブ版でのみ表示）。地政学ニュースが出た時に「どこの話か・サプライチェーンへの影響」を把握する手がかりになります。</span></span></h2>
 <div class="panel"><div class="plain">メモリ/ファウンドリ/装置/データセンターの世界の主要拠点と、台湾海峡など輸送・地政学リスク地点の一覧です（地図はライブ版でのみ表示）。地政学ニュースが出た時に「どこの話か・サプライチェーンへの影響」を把握する手がかりになります。</div><table><tbody><tr><td class=muted>メモリ</td><td>キオクシア 四日市工場</td><td class=muted>キオクシア(285A)/サンディスク主力NAND拠点。世界最大級のNAND生産。BiCS FLASH量産の中核</td></tr><tr><td class=muted>メモリ</td><td>キオクシア 北上工場</td><td class=muted>キオクシアの新世代NAND(BiCS第8世代)増強拠点。岩手県北上市</td></tr><tr><td class=muted>メモリ</td><td>SKハイニックス 利川</td><td class=muted>SKハイニックスの主力DRAM/HBM拠点。AI向けHBMで世界首位級</td></tr><tr><td class=muted>メモリ</td><td>サムスン 華城(ファソン)</td><td class=muted>サムスン電子のメモリ/ファウンドリ拠点。DRAM・NAND・ロジック</td></tr><tr><td class=muted>メモリ</td><td>サムスン 平沢(ピョンテク)</td><td class=muted>サムスン最大級メモリ拠点。先端DRAM/NAND/HBM増強</td></tr><tr><td class=muted>メモリ</td><td>マイクロン 広島工場</td><td class=muted>マイクロンの先端DRAM拠点(日本)。EUV導入のDRAM量産</td></tr><tr><td class=muted>メモリ</td><td>マイクロン 本社/ボイシ</td><td class=muted>マイクロン(MU)本社・米国DRAM拠点。NAND/DRAMピア</td></tr><tr><td class=muted>ファウンドリ</td><td>TSMC 新竹</td><td class=muted>TSMC本拠・先端ロジックの中核。AIチップ(NVIDIA/AMD)を受託製造</td></tr><tr><td class=muted>ファウンドリ</td><td>TSMC 熊本(JASM)</td><td class=muted>TSMCの日本ファウンドリ(JASM)。ソニー/デンソー連携。第2工場計画</td></tr><tr><td class=muted>ファウンドリ</td><td>TSMC アリゾナ</td><td class=muted>TSMC米国拠点。先端ノードの域内供給</td></tr><tr><td class=muted>ファウンドリ</td><td>インテル ファウンドリ</td><td class=muted>インテルのファウンドリ事業。先端ロジック内製/受託</td></tr><tr><td class=muted>equipment</td><td>ASML フェルトホーフェン</td><td class=muted>EUV露光装置の独占供給(オランダ)。先端半導体製造の死活的ボトルネック</td></tr><tr><td class=muted>equipment</td><td>東京エレクトロン(8035)</td><td class=muted>成膜/エッチング等の製造装置大手(日本)。SPEヒートマップの中核銘柄</td></tr><tr><td class=muted>equipment</td><td>アプライド・マテリアルズ</td><td class=muted>米製造装置最大手。WFE市況のバロメーター</td></tr><tr><td class=muted>equipment</td><td>レーザーテック(6920)</td><td class=muted>EUVマスク検査で独占的(日本)。SPE銘柄</td></tr><tr><td class=muted>equipment</td><td>アドバンテスト(6857)</td><td class=muted>半導体テスタ大手(日本)。AI/HBMテスト需要で注目。SPE銘柄</td></tr><tr><td class=muted>データセンター</td><td>NVIDIA 本社</td><td class=muted>AI GPU設計の中核(米サンタクララ)。AIチップ需要の震源</td></tr><tr><td class=muted>チョークポイント</td><td>台湾海峡</td><td class=muted>先端半導体供給の地政学的要衝。封鎖/緊張は全AI半導体に波及するチョークポイント</td></tr><tr><td class=muted>チョークポイント</td><td>マラッカ海峡</td><td class=muted>東アジア半導体サプライチェーンの海上物流要衝</td></tr><tr><td class=muted>geopolitics</td><td>米中 半導体規制(対中輸出規制)</td><td class=muted>対中先端半導体/装置の輸出規制。需給・各社売上の地政学リスク軸</td></tr></tbody></table></div>
